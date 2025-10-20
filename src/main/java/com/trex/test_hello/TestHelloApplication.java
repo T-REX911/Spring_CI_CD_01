@@ -24,7 +24,7 @@ public class TestHelloApplication {
 
 	@PostMapping("/name")
 	public String helloPost(@RequestBody String name){
-		String text = "Hello " + name;
+		String text = "Hello " + name + "This is a POST request";
 		System.out.println(text);
 		return text;
 	}
