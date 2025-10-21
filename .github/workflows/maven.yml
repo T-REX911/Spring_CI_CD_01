@@ -43,6 +43,6 @@ jobs:
         image: thumula/spring_ci_cd_01
         tags: latest
         registry: docker.io
-        dockerfile: Dockerfile
+        dockerfile: Spring_CI_CD_01/Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
